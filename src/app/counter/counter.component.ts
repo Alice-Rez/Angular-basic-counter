@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CounterComponent implements OnInit {
 
+  min:number=0;
+  max:number=10;
+
   //why two-way binding does not work when I had value number and not string? Because of types?
   counterValue:number=0;
 
