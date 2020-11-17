@@ -1,0 +1,10 @@
+section {
+  margin-top: 3em;
+  display: grid;
+  place-items: center;
+}
+
+input,
+p {
+  margin-bottom: 1em;
+}
