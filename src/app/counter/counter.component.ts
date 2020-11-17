@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CounterComponent implements OnInit {
 
+  //why two-way binding does not work when I had value number and not string? Because of types?
+  counterValue:number=0;
+
+  changeCounter(value:number){
+    this.counterValue = this.counterValue+value
+  }
+
   constructor() { }
 
   ngOnInit(): void {
