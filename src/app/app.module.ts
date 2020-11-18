@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { CounterComponent } from './counter/counter.component';
 import { FormsModule } from '@angular/forms';
 import { AssignmentUdemyComponent } from './assignment-udemy/assignment-udemy.component';
+import { PipePlayComponent } from './pipe-play/pipe-play.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
-    AssignmentUdemyComponent
+    AssignmentUdemyComponent,
+    PipePlayComponent
   ],
   imports: [
     BrowserModule,
