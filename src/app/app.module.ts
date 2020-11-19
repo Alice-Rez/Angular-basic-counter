@@ -6,13 +6,15 @@ import { CounterComponent } from './counter/counter.component';
 import { FormsModule } from '@angular/forms';
 import { AssignmentUdemyComponent } from './assignment-udemy/assignment-udemy.component';
 import { PipePlayComponent } from './pipe-play/pipe-play.component';
+import { Udemy3Component } from './udemy3/udemy3.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
     AssignmentUdemyComponent,
-    PipePlayComponent
+    PipePlayComponent,
+    Udemy3Component
   ],
   imports: [
     BrowserModule,
